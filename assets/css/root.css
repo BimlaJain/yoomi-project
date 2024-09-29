@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+:root {
+    --font-xsm: 14px;
+    --font-sm: 16px;
+    --font-xmd: 18px;
+    --font-md: 20px;
+    --font-xlg: 24px;
+    --font-lg: 30px;
+    --font-xl: 32px;
+    --font-2xl: 40px;
+    --font-3xl: 52px;
+    --font-4xl: 60px;
+    --off-white:#F8FDFF;
+    --navy-blue: #076787;
+    --light-skyblue: #82B2C2;
+    --light-green: #85B6A6;
+    --dark-skyblue: #82B2C2;
+    --light-gray: #AFCBD521;
+}
+.bg-offwhite{
+    background-color: var(--off-white);
+}
+
+.bg-navyblue{
+    background-color: var(--navy-blue);
+}
+.text-navyblue{
+    color: var(--navy-blue);
+}
+.bg-light-skyblue{
+    background-color: var(--light-skyblue);
+}
+.bg-green{
+    background-color: var(--light-green);
+}
+.bg-light-gray{
+    background-color: var(--light-gray);
+}
+.bg-bg-darkskyblue{
+    background-color: var(--dark-skyblue);
+}
+.font-xsm{
+    font-size: var(--font-xsm);
+}
+.font-sm {
+    font-size: var(--font-sm);
+}
+.font-xmd {
+    font-size: var(--font-xmd);
+}
+.font-md{
+    font-size: var(--font-md);
+}
+.font-xlg{
+    font-size: var(--font-xlg);
+}
+.font-lg {
+    font-size: var(--font-lg);
+}
+.font-xl {
+    font-size: var(--font-xl);
+
+}.font-2xl {
+    font-size: var(--font-2xl);
+}
+.font-3xl {
+    font-size: var(--font-3xl);
+}
+.font-4xl {
+    font-size: var(--font-4xl);
+}
+
+@media (max-width:1024px) {
+    :root {
+
+        --font-lg: 26px;
+        --font-xl: 28px;
+        --font-2xl: 35px;
+        --font-3xl: 48px;
+        
+    }
+}
+
+@media (max-width:992px) {
+    :root {
+
+        --font-lg: 24px;
+        --font-xl: 26px;
+        --font-2xl: 30px;
+        --font-3xl: 41px;
+   
+    }
+
+}
+
+@media (max-width:768px) {
+    :root {
+        --font-xsm: 14px;
+        --font-sm: 14px;
+        --font-xmd: 16px;
+        --font-md: 18px;
+        --font-xlg: 20px;
+        --font-lg: 22px;
+        --font-xl: 24px;
+        --font-2xl: 26px;
+        --font-3xl: 43px;
+       
+    }
+
+}
+
+@media (max-width:576px) {
+    :root {
+        --font-xsm: 12px;
+        --font-sm: 12px;
+        --font-xmd: 14px;
+        --font-md: 20px;
+        --font-xlg: 15px;
+        --font-lg: 26px;
+        --font-xl: 28px;
+        --font-2xl: 35px;
+        --font-3xl: 33px;
+        --font-4xl: 60px;
+    }
+
+}
