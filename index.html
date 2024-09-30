@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="shortcut icon" href="assets/images/webp/favicon.webp" type="image/x-icon">
         <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
             integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
             crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -187,10 +188,14 @@
         </section>
         <!-- ---------------------------tracking section---------------------------------- -->
         <section class="relative">
-            <img src="assets/images/webp/left-plus.webp" alt="left-plus" class="absolute top-[-34%] lg:block hidden">
-            <img src="assets/images/webp/right-plus.webp" alt="right-plus" class="absolute right-[1%] bottom-[-37%] z-[-10] lg:block hidden">
+            <div class="absolute top-[-34%] lg:block hidden !-z-20">
+            <img src="assets/images/webp/left-plus.webp" alt="left-plus">
+            </div>
+            <div class="absolute right-[1%] bottom-[-37%] lg:block hidden -z-10">
+            <img src="assets/images/webp/right-plus.webp" alt="right-plus">
+            </div>
             <div class="container">
-                <div class="card  shadow-lg max-w-[1138px] mx-auto my-auto rounded-3xl ">
+                <div class="card  shadow-lg max-w-[1138px] mx-auto my-auto rounded-3xl relative !z-40">
                     <div class="row lg:my-24 md:my-14 sm:my-10 my-8  md:flex-row -mx-3 flex flex-wrap ">
                         <div class="lg:w-1/2 w-full flex justify-center ms-8 items-center">
                             <div class="relative">
@@ -203,30 +208,30 @@
                         </div>
                         <div class="lg:w-[41.66%] w-full px-3 ms-7 flex justify-center items-center my-14">
                             <div class="text-left">
-                                <h3 class="font-inter font-medium font-sm leading-normal text-navyblue ">TRACKING</h3>
+                                <h3 class=" font-medium font-sm leading-normal text-navyblue ">TRACKING</h3>
                                 <p class="font-plus font-xl leading-[110%] font-normal">Cutting Edge Motion <span
                                         class="font-semibold">Tracking/Feedback</span></p>
                                 <div class="flex gap-4 mt-5 mb-2">
                                     <img src="assets/images/svg/tick.svg" alt="checkbox">
-                                    <p class="font-inter font-normal text-black opacity-70 leading-[150%] font-sm">
+                                    <p class=" font-normal text-black opacity-70 leading-[150%] font-sm">
                                         Provides a holistic, real-time analysis of patient exercise form, capturing 300+
                                         data points and critical metrics.</p>
                                 </div>
                                 <div class="flex gap-4 mb-2">
                                     <img src="assets/images/svg/tick.svg" alt="checkbox">
-                                    <p class="font-inter font-normal text-black opacity-70 leading-[150%] font-sm">
+                                    <p class=" font-normal text-black opacity-70 leading-[150%] font-sm">
                                         Delivers immediate feedback and guidance to correct and improve exercise form
                                     </p>
                                 </div>
                                 <div class="flex gap-4 mb-9">
                                     <img src="assets/images/svg/tick.svg" alt="checkbox">
-                                    <p class="font-inter font-normal text-black opacity-70 leading-[150%] font-sm">
+                                    <p class=" font-normal text-black opacity-70 leading-[150%] font-sm">
                                         Supported by the most accurate motion-tracking model designed for
                                         rehabilitation, Yoomi Vision</p>
                                 </div>
                                 <div class="flex gap-4 mb-9">
                                     <img src="assets/images/svg/tick.svg" alt="checkbox">
-                                    <p class="font-inter font-normal text-black opacity-70 leading-[150%] font-sm">
+                                    <p class=" font-normal text-black opacity-70 leading-[150%] font-sm">
                                         Requires no custom hardware, sensors, or equipment</p>
                                 </div>
                                 <button
@@ -240,17 +245,17 @@
             </div>
         </section>
         <!-- ------------------report section------------------------------ -->
-        <section class="lg:mb-24 md:mb-14 sm:mb-10 mb-8  lg:mt-[105px] md:mt-14 sm:mt-10 mt-8">
+        <section class="lg:mb-24 md:mb-14 sm:mb-10 mb-8  lg:mt-[105px] md:mt-14 sm:mt-10 mt-8 relative ">
             <div class="container">
                 <div class="card shadow-lg max-w-[1138px] mx-auto  rounded-3xl py-20">
                     <div class="row  md:flex-row -mx-3 flex flex-wrap ">
                         <div class="lg:w-[41.66%] w-full px-3 ms-7 flex justify-center items-center my-14">
                             <div class="text-left">
-                                <h3 class="font-inter font-medium font-sm leading-normal text-navyblue ">REPORT</h3>
+                                <h3 class=" font-medium font-sm leading-normal text-navyblue ">REPORT</h3>
                                 <p class="font-plus font-xl leading-[110%] font-normal">Reporting + <span
                                         class="font-semibold">Analytics</span></p>
                                 <div class="flex gap-4 mt-5 mb-9">
-                                    <p class="font-inter font-normal text-black opacity-70 leading-[150%] font-sm">
+                                    <p class=" font-normal text-black opacity-70 leading-[150%] font-sm">
                                         Provides a holistic, real-time analysis of patient exercise form, capturing 300+
                                         data points and
                                         critical metrics.</p>
@@ -277,18 +282,18 @@
         <!-- -------------------------platform section---------------------------- -->
         <section class="lg:pt-[87px]  md:pt-14 sm:pt-10 pt-8 lg:pb-24 md:pb-14 sm:pb-10 pb-8  bg-[#F5F8FA]">
             <div class="container">
-                <h2 class="font-inter font-medium fs-sm text-navyblue text-center uppercase">Platform</h2>
+                <h2 class=" font-medium fs-sm text-navyblue text-center uppercase">Platform</h2>
                 <p class="font-plus font-normal text-center leading-[110%] font-2xl text-black ">Through <span
                         class="font-semibold">Our Platform</span></p>
                 <p
-                    class="max-w-[724px] mx-auto text-black font-normal leading-[150%] font-sm opacity-70 text-center font-inter mt-2 mb-14">
+                    class="max-w-[724px] mx-auto text-black font-normal leading-[150%] font-sm opacity-70 text-center  mt-2 mb-14">
                     We’ve helped out partners and patients achieve</p>
                 <div id="counter" class=" flex items-center justify-center gap-4 flex-row flex-wrap md:flex-nowrap ">
                     <div class=" bg-[--light-green] py-10 px-[60px] max-w-[268px]  relative">
                         <div class="flex items-center justify-center ">
-                            <p class=" text-center font-4xl font-semibold text-white  count mb-0 font-inter leading-[110%]"
+                            <p class=" text-center font-4xl font-semibold text-white  count mb-0  leading-[110%]"
                                 data-count="50">0</p><span
-                                class="font-4xl font-semibold text-white font-inter leading-[110%]">%</span>
+                                class="font-4xl font-semibold text-white  leading-[110%]">%</span>
                         </div>
                         <p class="font-normal leading-[150%] font-md  text-white opacity-80 text-center">Reduction in
                             Pain</p>
@@ -297,9 +302,9 @@
                     </div>
                     <div class=" bg-[--dark-skyblue] py-10 px-[42px] max-w-[268px] relative">
                         <div class="flex items-center justify-center ">
-                            <p class=" text-center font-4xl font-semibold text-white  count mb-0 font-inter leading-[110%] "
+                            <p class=" text-center font-4xl font-semibold text-white  count mb-0  leading-[110%] "
                                 data-count="90">0</p><span
-                                class="font-4xl font-semibold text-white font-inter leading-[110%]">%</span>
+                                class="font-4xl font-semibold text-white  leading-[110%]">%</span>
                         </div>
                         <p class="font-normal leading-[150%] font-md  text-white opacity-80 text-center">Increase
                             In-Patient Satisfaction</p>
@@ -308,9 +313,9 @@
                     </div>
                     <div class=" bg-[--navy-blue] py-[59px] px-[60px] max-w-[268px]  relative">
                         <div class="flex items-center justify-center ">
-                            <p class=" text-center font-4xl font-semibold text-white  count mb-0 font-inter leading-[110%]"
+                            <p class=" text-center font-4xl font-semibold text-white  count mb-0  leading-[110%]"
                                 data-count="60">0</p><span
-                                class="font-4xl font-semibold text-white font-inter leading-[110%]">%</span>
+                                class="font-4xl font-semibold text-white  leading-[110%]">%</span>
                         </div>
                         <p class="font-normal leading-[150%] font-md  text-white opacity-80 text-center">Faster Recovery
                         </p>
@@ -355,7 +360,7 @@
         <!-- -------------------know more section------------------------- -->
         <section>
             <div class="container">
-                <h3 class="font-inter font-medium font-sm leading-normal text-navyblue text-center pb-4">Know More</h3>
+                <h3 class=" font-medium font-sm leading-normal text-navyblue text-center pb-4">Know More</h3>
                 <p class="font-plus font-2xl leading-[110%] font-normal text-center max-w-[615px] mx-auto">And Used by
                     the Biggest <span class="font-semibold">Figures in Sports and Rehab</span></p>
                 <div class="nav-tabs active mt-14 ">
@@ -418,7 +423,7 @@
                 <div class="flex md:justify-between md:flex-row flex-col">
                     <div class="">
                         <img src="assets/images/webp/footer-logo.webp" alt="footer-logo" class="max-w-[192px] w-full">
-                        <p class="font-inter font-light font-xsm leading-[150%] text-white my-7 max-w-[277px]">I'm a
+                        <p class=" font-light font-xsm leading-[150%] text-white my-7 max-w-[277px]">I'm a
                             paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text”
                         </p>
                         <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" class="text-white gap-4 flex max-w-[200px]"> <span class="flex">
@@ -432,32 +437,32 @@
                     </div>
                     <div class="flex gap-7 max-w-[491px] w-full md:mt-0 mt-[52px] flex-wrap">
                         <div class="flex flex-col gap-4 max-w-[145px] w-full">
-                            <p class="font-inter font-semibold font-xsm text-white leading-normal">About</p>
+                            <p class=" font-semibold font-xsm text-white leading-normal">About</p>
                             <ul class="p-0 m-0 flex flex-col gap-4">
-                                <li class="font-normal leading-normal font-inter font-xsm text-white"><a href="">Meet
+                                <li class="font-normal leading-normal  font-xsm text-white"><a href="">Meet
                                         the Team</a></li>
-                                <li class="font-normal leading-normal font-inter font-xsm text-white"><a href="">Our
+                                <li class="font-normal leading-normal  font-xsm text-white"><a href="">Our
                                         Mission</a></li>
-                                <li class="font-normal leading-normal font-inter font-xsm text-white"><a href="">Our
+                                <li class="font-normal leading-normal  font-xsm text-white"><a href="">Our
                                         Vision</a></li>
                             </ul>
                         </div>
                         <div class="flex flex-col gap-4 max-w-[145px] w-full">
-                            <p class="font-inter font-semibold font-xsm text-white leading-normal">Contact Us</p>
+                            <p class=" font-semibold font-xsm text-white leading-normal">Contact Us</p>
                             <ul class="p-0 m-0 flex flex-col gap-4">
-                                <li class="font-normal leading-normal font-inter font-xsm text-white"><a
+                                <li class="font-normal leading-normal  font-xsm text-white"><a
                                         href="https://x.com/?lang=en-in">Twitter</a>
                                 </li>
-                                <li class="font-normal leading-normal font-inter font-xsm text-white"><a
+                                <li class="font-normal leading-normal  font-xsm text-white"><a
                                         href="https://www.instagram.com/">Instagram</a></li>
-                                <li class="font-normal leading-normal font-inter font-xsm text-white"><a
+                                <li class="font-normal leading-normal  font-xsm text-white"><a
                                         href="https://in.linkedin.com/">Linkedin</a></li>
                             </ul>
                         </div>
                         <div class="flex flex-col gap-4 max-w-[145px] w-full">
-                            <p class="font-inter font-semibold font-xsm text-white leading-normal">News</p>
+                            <p class=" font-semibold font-xsm text-white leading-normal">News</p>
                             <ul class="p-0 m-0 flex flex-col gap-4">
-                                <li class="font-normal leading-normal font-inter font-xsm text-white"><a
+                                <li class="font-normal leading-normal  font-xsm text-white"><a
                                         href="https://x.com/?lang=en-in">Recent</a>
                                 </li>
                             </ul>
@@ -467,9 +472,9 @@
             </div>
             <div class="border border-white opacity-20 w-full"></div>
             <div class="container py-5 flex gap-6  md:justify-end justify-center">
-                <p class="font-inter font-normal font-xsm text-white opacity-30 md:text-end text-center">Terms of Service</p>
-                <p class="font-inter font-normal font-xsm text-white opacity-30 md:text-end text-center">Privacy Policy</p>
-                <p class="font-inter font-normal font-xsm text-white opacity-30 md:text-end text-center">Cookies</p>
+                <p class=" font-normal font-xsm text-white opacity-30 md:text-end text-center">Terms of Service</p>
+                <p class=" font-normal font-xsm text-white opacity-30 md:text-end text-center">Privacy Policy</p>
+                <p class=" font-normal font-xsm text-white opacity-30 md:text-end text-center">Cookies</p>
             </div>
         </section>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
