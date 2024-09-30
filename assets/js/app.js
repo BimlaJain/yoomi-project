@@ -8,6 +8,8 @@ $('.slider').slick({
     centerMode: true,
     dots: false,
     Infinity: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
     // centerPadding: '60px',
     slidesToShow: 1,
     responsive: [
@@ -63,50 +65,22 @@ $(window).scroll(function () {
         counted = 1;
     }
 });
-// tab slider js 
-$('.tabs-slider').slick({
-    slidesToShow: 4,
+// tab slider js
+$('.tab-content').slick({
+    slidesToShow: 1,
     slidesToScroll: 1,
+    arrows: false,
+    dots:false,
     autoplay: true,
     autoplaySpeed: 2000,
-    responsive: [
-        {
-            breakpoint: 768,
-            settings: {
-                arrows: false,
-                centerMode: true,
-                centerPadding: '40px',
-                slidesToShow: 3
-            }
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                arrows: false,
-                centerMode: true,
-                centerPadding: '40px',
-                slidesToShow: 2
-            }
-        }
-    ]
+    fade: true,
+    asNavFor: '.tabs-slider'
 });
-// link tab js 
-const tabs = document.querySelectorAll('.tab-item');
-const contents = document.querySelectorAll('.tab-pera');
-console.log(tabs);
-const removeActiveClasses = () => {
-    tabs.forEach(tab => tab.classList.remove('active'));
-    contents.forEach(content => content.classList.remove('active'));
-};
-const setActiveTab = (tab) => {
-    const targetId = tab.getAttribute('data-target');
-    const targetContent = document.getElementById(targetId);
-    tab.classList.add('active');
-    targetContent.classList.add('active');
-};
-tabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-        removeActiveClasses();
-        setActiveTab(tab);
-    });
+$('.tabs-slider').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    asNavFor: '.tab-content ',
+    dots: true,
+    centerMode: true,
+    focusOnSelect: true
 });
