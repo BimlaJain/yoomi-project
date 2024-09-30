@@ -102,7 +102,7 @@ img{
     width: 100%;
 }
 #col-slider .next:hover path {
-    stroke: white;
+    stroke: black;
 }
 
 #col-slider .prev:hover path {
@@ -161,8 +161,6 @@ img{
         scale: 1.2;
     
 }
-
-
 .swiper-slide img {
     display: block;
     width: 100%;
