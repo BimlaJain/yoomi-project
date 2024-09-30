@@ -98,6 +98,13 @@ body{
     width: 460px !important;
     width: 100%;
 }
+#col-slider .next:hover path {
+    stroke: white;
+}
+
+#col-slider .prev:hover path {
+    stroke: white;
+}
 .swiper {
     width: 100%;
     height: 100%;
