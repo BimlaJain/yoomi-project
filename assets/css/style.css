@@ -7,9 +7,7 @@
 body{
     font-family: "Inter", sans-serif;  
 }
-img{
-    pointer-events: none !important;
-}
+
 .font-plus{
     font-family: "Plus Jakarta Sans", sans-serif;
 }

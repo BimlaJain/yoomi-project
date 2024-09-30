@@ -86,10 +86,8 @@
         --font-lg: 24px;
         --font-xl: 26px;
         --font-2xl: 30px;
-        --font-3xl: 41px;
-   
+        --font-3xl: 41px;   
     }
-
 }
 
 @media (max-width:768px) {
@@ -102,10 +100,8 @@
         --font-lg: 22px;
         --font-xl: 24px;
         --font-2xl: 26px;
-        --font-3xl: 43px;
-       
+        --font-3xl: 43px;       
     }
-
 }
 
 @media (max-width:576px) {
