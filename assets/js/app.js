@@ -63,7 +63,34 @@ $(window).scroll(function () {
         counted = 1;
     }
 });
-// link slider js 
+// tab slider js 
+$('.tabs-slider').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 3
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 2
+            }
+        }
+    ]
+});
+// link tab js 
 const tabs = document.querySelectorAll('.tab-item');
 const contents = document.querySelectorAll('.tab-pera');
 console.log(tabs);
