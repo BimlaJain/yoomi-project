@@ -65,21 +65,19 @@ $(window).scroll(function () {
     }
 });
 // tab slider js
-$('.tab-content').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    dots:false,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    fade: true,
-    asNavFor: '.tabs-slider'
+var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 10,
+    slidesPerView: 4,
+    freeMode: true,
+    watchSlidesProgress: true,
 });
-$('.tabs-slider').slick({
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    asNavFor: '.tab-content ',
-    dots: true,
-    centerMode: true,
-    focusOnSelect: true
+var swiper2 = new Swiper(".mySwiper2", {
+    spaceBetween: 10,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    thumbs: {
+        swiper: swiper,
+    },
 });
