@@ -129,9 +129,9 @@ body{
     background-position: center;
 }
 
-.mySwiper2 {
-    height: 80%;
-    width: 946px !important;
+.mySwiper2 {    
+    max-width: 946px !important;
+    width: 100%;
 }
 
 .mySwiper {
