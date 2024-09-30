@@ -10,7 +10,6 @@ $('.slider').slick({
     Infinity: false,
     autoplay: true,
     autoplaySpeed: 2000,
-    // centerPadding: '60px',
     slidesToShow: 1,
     responsive: [
         {
