@@ -8,9 +8,12 @@ $('.slider').slick({
     centerMode: true,
     dots: false,
     Infinity: false,
-    autoplay: true,
+    // autoplay: true,
     autoplaySpeed: 2000,
-    slidesToShow: 1,
+    slidesToShow: 1.1,
+    slideToScroll:1,
+    nextArrow: ".next",
+    prevArrow:".prev",
     responsive: [
         {
             breakpoint: 768,
@@ -66,12 +69,14 @@ $(window).scroll(function () {
 });
 // tab slider js
 var swiper = new Swiper(".mySwiper", {
+    loop: true,
     spaceBetween: 10,
     slidesPerView: 4,
     freeMode: true,
     watchSlidesProgress: true,
 });
 var swiper2 = new Swiper(".mySwiper2", {
+    loop: true,
     spaceBetween: 10,
     navigation: {
         nextEl: ".swiper-button-next",

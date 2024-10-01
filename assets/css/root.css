@@ -71,18 +71,15 @@
 
 @media (max-width:1024px) {
     :root {
-
         --font-lg: 26px;
         --font-xl: 28px;
         --font-2xl: 35px;
-        --font-3xl: 48px;
-        
+        --font-3xl: 48px;        
     }
 }
 
 @media (max-width:992px) {
     :root {
-
         --font-lg: 24px;
         --font-xl: 26px;
         --font-2xl: 30px;
@@ -117,5 +114,4 @@
         --font-3xl: 33px;
         --font-4xl: 60px;
     }
-
 }

@@ -65,7 +65,7 @@ body{
     border-radius: 50%;
     background-color: black !important;
 }
-#col-slider  .slick-prev {
+#col-slider .slick-prev {
     top: 107% !important;
     left: 2% !important;
 }
@@ -106,6 +106,9 @@ body{
 #col-slider .prev:hover path {
     stroke: white;
 }
+/* #col-slider .slick-list{
+    padding: 0 !important;
+} */
 .swiper {
     width: 100%;
     height: 100%;
@@ -140,6 +143,9 @@ body{
 .mySwiper2 {    
     max-width: 946px !important;
     width: 100%;
+}
+.slick-list{
+    padding: 0 !important;
 }
 
 .mySwiper {
@@ -237,4 +243,9 @@ body{
      background: var(--light-skyblue);
      width: 100%;
  }
+}
+
+/* swipper */
+.mySwiper{
+    width: 640px !important;
 }

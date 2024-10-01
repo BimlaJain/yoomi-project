@@ -61,7 +61,7 @@
     </head>
 
     <body>
-        <!-- -------------------hero-section---------------------- -->
+        <!-- -------------------hero-header-section---------------------- -->
         <section class="relative">
             <img src="assets/images/webp/light-plus.webp" alt="light-plus"
                 class="absolute top-[14%] lg:w-40 w-32 md:block hidden pointer-events-none">
@@ -99,7 +99,7 @@
                     leading AI motion-tracking technology</p>
                 <div
                     class="flex justify-between bg-white  shadow-lg  sm:max-w-[428px] max-w-[330px] mx-auto sm:mt-14 mt-6">
-                    <input type="email" placeholder="Enter Your Email" class=" px-5 py-3 w-48 focus:outline-none">
+                    <input type="email" placeholder="Enter Your Email" class=" px-5 py-3 w-48 focus:outline-none placeholder:text-black placeholder-opacity-70">
                     <button
                         class="bg-navyblue text-white sm:px-6 py-2 px-5  rounded-md hover:text-[--navy-blue] hover:bg-white border-[1px] border-[--navy-blue] transition-all ease-in-out duration-500 my-1 me-1 font-sm">
                         Get Started
@@ -120,8 +120,8 @@
             <img src="assets/images/webp/chatting.webp" alt="chatting" class="pointer-events-none">
         </div>
 
-        <!--------------------------col slider section------------------------  -->
-        <section id="col-slider" class="lg:my-24 md:my-14 sm:my-10 my-8 ">
+        <!--------------------------features section------------------------  -->
+        <section id="col-slider" class="lg:my-24 md:my-14 sm:my-10 my-8">
             <div class="container ">
                 <h2 class="font-inter font-medium fs-sm text-navyblue text-center sm:mt-[-108px] mt-[-61px] uppercase">
                     Features</h2>
@@ -132,7 +132,7 @@
                     Yoomi is more than just a regular remote monitoring solution. Our product supports patients and
                     providers through every
                     step of the rehabilitation process</p>
-                <div class="card shadow-lg max-w-[1138px] mx-auto my-auto sm:pb-14 rounded-3xl  overflow-hidden">
+                <div class="card shadow-lg max-w-[1138px] bg-white mx-auto my-auto sm:pb-14 rounded-3xl  overflow-hidden relative">
                     <div class="row sm:mt-16 md:flex-row -mx-3 flex flex-wrap">
                         <div class="lg:w-[41.66%] w-full px-3 ms-7 flex justify-center items-center">
                             <div class="text-left">
@@ -159,14 +159,15 @@
                                         seconds</p>
                                 </div>
                                 <button
-                                    class="bg-navyblue text-white sm:px-6 py-4 px-[18px]  rounded-md hover:text-[--navy-blue] hover:bg-white border-[1px] border-[--navy-blue] transition-all ease-in-out duration-500 my-1 me-1 font-sm">
+                                    class="bg-navyblue text-white sm:px-[21px] py-[14px] px-[18px]  rounded-md hover:text-[--navy-blue] hover:bg-white border-[1px] border-[--navy-blue] transition-all ease-in-out duration-500 font-sm">
                                     View the Library
                                 </button>
                             </div>
                         </div>
-                        <div class="lg:w-[50%] px-3 w-full lg:mt-0 mt-[60px] relative features overflow-hidden">
-                            <div class="slider relative z-10">
-                                <div class="silder-image">
+                        <div class="lg:w-[50%] px-3 w-full lg:mt-0 mt-[60px] overflow-hidden">
+                            <div class="bg-light-skyblue max-w-[486px] sm:max-h-[262px] max-h-[180px] absolute w-full rounded-md h-full lg:top-6 lg:right-[6%] overflow-x-hidden right-0 top-96"></div>
+                            <div class="slider relative">
+                                <div class="silder-image ">
                                     <img src="./assets/images/webp/slider.webp" alt="slider"
                                         class="w-full max-h-[331px] h-full pointer-events-none">
                                 </div>
@@ -179,7 +180,7 @@
                                         class="w-full max-h-[331px] h-full pointer-events-none">
                                 </div>
                             </div>
-                            <div class="flex  slick-arrow-buttons gap-3 py-6 relative z-30 mx-3">
+                            <div class="flex  slick-arrow-buttons gap-3 py-6 relative mx-3">
                                 <button
                                     class="prev border hover:bg-[--navy-blue]  bg-white items-center flex justify-center w-9 h-9 rounded-full cursor-pointer transition-all ease-linear duration-200 ">
                                     <svg width="7" height="11" viewBox="0 0 7 11" fill="none"
@@ -207,27 +208,28 @@
         </section>
         <!-- ---------------------------tracking section---------------------------------- -->
         <section class="relative">
-            <div class="absolute top-[-34%] lg:block hidden !-z-20">
-                <img src="assets/images/webp/left-plus.webp" alt="left-plus" class="pointer-events-none">
+            <div class="lg:block hidden">
+            <div class="absolute top-[-34%] z-[-1]">
+                    <img src="assets/images/webp/left-plus.webp" alt="left-plus" class="pointer-events-none">
             </div>
-            <div class="absolute right-[1%] bottom-[-37%] lg:block hidden -z-10">
+            </div>
+            <div class="absolute right-[1%] bottom-[-37%] lg:block hidden">
                 <img src="assets/images/webp/right-plus.webp" alt="right-plus" class="pointer-events-none">
             </div>
             <div class="container">
-                <div class="card  shadow-lg max-w-[1138px] mx-auto my-auto rounded-3xl relative z-40">
+                <div class="card  shadow-lg max-w-[1138px] bg-white mx-auto my-auto rounded-3xl relative z-10">
                     <div class="row lg:my-24 md:my-14 sm:my-10 my-8  md:flex-row sm:-mx-3 flex flex-wrap ">
-                        <div class="lg:w-1/2 w-full flex justify-center ms-8 items-center">
+                        <div class="lg:w-[41.66%] w-full flex justify-center ms-8 items-center">
                             <div class="relative">
                                 <img src="assets/images/webp/tracking.webp" alt="tracking"
                                     class="w-full sm:max-w-[490px] max-w-[320px] pointer-events-none">
                                 <img src="assets/images/webp/tracking-girl.webp" alt="tracking-girl"
-                                    class="absolute top-[-12%] left-[-7%] sm:max-w-[217px] max-w-[150px] pointer-events-none">
+                                    class="absolute top-[-10%] left-[-7%] sm:max-w-[217px] max-w-[150px] pointer-events-none">
                                 <img src="assets/images/webp/tracking-graph.webp" alt="tracking-graph"
                                     class="absolute top-[-8%] right-[1%]  sm:max-w-[120px] max-w-[90px] pointer-events-none">
                             </div>
                         </div>
-                        <div
-                            class="lg:w-[41.66%] w-full px-3 sm:ms-7 ms-3 flex justify-center items-center sm:my-14 my-4">
+                        <div class="lg:w-[50%] w-full px-3 sm:ms-7 ms-3 flex justify-center items-center sm:my-14 my-4">
                             <div class="text-left">
                                 <h3 class=" font-medium font-sm leading-normal text-navyblue ">TRACKING</h3>
                                 <p class="font-plus font-xl leading-[110%] font-normal">Cutting Edge Motion <span
@@ -256,7 +258,7 @@
                                         Requires no custom hardware, sensors, or equipment</p>
                                 </div>
                                 <button
-                                    class="bg-navyblue text-white sm:px-6 py-4 px-[18px]  rounded-md hover:text-[--navy-blue] hover:bg-white border-[1px] border-[--navy-blue] transition-all ease-in-out duration-500 my-1 me-1 font-sm">
+                                    class="bg-navyblue text-white sm:px-8 py-4 px-[18px] rounded-md hover:text-[--navy-blue] hover:bg-white border-[1px] border-[--navy-blue] transition-all ease-in-out duration-500 my-1 me-1 font-sm">
                                     Test it Yourself
                                 </button>
                             </div>
@@ -269,7 +271,8 @@
         <section
             class="lg:mb-24 md:mb-14 sm:mb-10 mb-8  lg:mt-[105px] md:mt-14 sm:mt-10 mt-8 relative overflow-hidden ">
             <div class="container">
-                <div class="card shadow-lg max-w-[1138px] mx-auto  rounded-3xl sm:py-20">
+                <div class="card shadow-lg max-w-[1138px] bg-white mx-auto rounded-3xl sm:py-20 relative">
+                    <img src="assets/images/card-plus.png" alt="card-plus" class="absolute bottom-0 left-0">
                     <div class="row  md:flex-row sm:-mx-3 flex flex-wrap ">
                         <div
                             class="lg:w-[41.66%] w-full px-3 sm:ms-7 ms-3 flex justify-center items-center sm:my-14 my-5">
@@ -304,7 +307,8 @@
             </div>
         </section>
         <!-- -------------------------platform section---------------------------- -->
-        <section class="lg:pt-[87px]  md:pt-14 sm:pt-10 pt-8 lg:pb-24 md:pb-14 sm:pb-10 pb-8  bg-[#F5F8FA]">
+        <section class="lg:pt-[87px] md:pt-14 sm:pt-10 pt-8 lg:pb-24 md:pb-14 sm:pb-10 pb-8 bg-[#F5F8FA] relative">
+          <img src="assets/images/top-plus.png" alt="top-plus" class="absolute top-0 right-0">
             <div class="container">
                 <h2 class=" font-medium font-sm text-navyblue text-center uppercase">Platform</h2>
                 <p class="font-plus font-normal text-center leading-[110%] font-2xl text-black ">Through <span
@@ -322,7 +326,7 @@
                         <p class="font-normal leading-[150%] font-md  text-white opacity-80 text-center">Reduction in
                             Pain</p>
                         <img src="assets/images/webp/counter-plus.webp" alt="counter plus"
-                            class="absolute bottom-0 right-0 z-10 pointer-events-none">
+                            class="absolute bottom-0 right-0 pointer-events-none">
                     </div>
                     <div class=" bg-[--dark-skyblue] py-10 px-[42px] max-w-[268px] relative">
                         <div class="flex items-center justify-center ">
@@ -335,7 +339,7 @@
                         <img src="assets/images/webp/counter-plus.webp" alt="counter plus"
                             class="absolute bottom-0 right-0 pointer-events-none">
                     </div>
-                    <div class=" bg-[--navy-blue] p-[59px] max-w-[268px]  relative">
+                    <div class=" bg-[--navy-blue] py-[55px] px-[59px] max-w-[268px]  relative">
                         <div class="flex items-center justify-center ">
                             <p class=" text-center font-4xl font-semibold text-white  count mb-0  leading-[110%]"
                                 data-count="60">0</p><span
@@ -384,7 +388,7 @@
         <!-- -------------------know more section------------------------- -->
         <section>
             <div class="container">
-                <h3 class=" font-medium font-sm leading-normal text-navyblue text-center pb-4">Know More</h3>
+                <h3 class=" font-medium font-sm leading-normal text-navyblue text-center pb-4 uppercase">Know More</h3>
                 <p class="font-plus font-2xl leading-[110%] font-normal text-center max-w-[615px] mx-auto">And Used by
                     the Biggest <span class="font-semibold">Figures in Sports and Rehab</span></p>
                 <div class="max-w-[946px mx-auto]  lg:pt-14 md:pt-8 sm:pt-6 pt-4">
@@ -435,7 +439,18 @@
                         <div class="swiper-slide max-w-[152px] w-full rounded-md">
                             <img src="assets/images/webp/doctor.webp" alt="swiper image" class="pointer-events-none"/>
                         </div>
-
+<div class="swiper-slide max-w-[152px] w-full rounded-md">
+    <img src="assets/images/webp/doctor.webp" alt="swiper image" class="pointer-events-none" />
+</div>
+<div class="swiper-slide max-w-[152px] w-full rounded-md">
+    <img src="assets/images/webp/presentation.webp" alt="swiper image" class="pointer-events-none" />
+</div>
+<div class="swiper-slide max-w-[152px] w-full rounded-md">
+    <img src="assets/images/webp/advertisment.webp" alt="swiper image" class="pointer-events-none" />
+</div>
+<div class="swiper-slide max-w-[152px] w-full rounded-md">
+    <img src="assets/images/webp/doctor.webp" alt="swiper image" class="pointer-events-none" />
+</div>
                     </div>
                 </div>
             </div>
