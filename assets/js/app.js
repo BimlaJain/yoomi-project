@@ -3,12 +3,11 @@ function navMenu() {
     navBtn.classList.toggle('active');
     document.body.classList.toggle("overflow-hidden")
 }
-// slider js
+//features slider js
 $('.slider').slick({
     centerMode: true,
     dots: false,
     Infinity: false,
-    // autoplay: true,
     autoplaySpeed: 2000,
     slidesToShow: 1.1,
     slideToScroll:1,
@@ -67,13 +66,14 @@ $(window).scroll(function () {
         counted = 1;
     }
 });
-// tab slider js
+// swiper js
 var swiper = new Swiper(".mySwiper", {
     loop: true,
     spaceBetween: 10,
     slidesPerView: 4,
     freeMode: true,
     watchSlidesProgress: true,
+   
 });
 var swiper2 = new Swiper(".mySwiper2", {
     loop: true,
