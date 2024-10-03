@@ -49,7 +49,6 @@ $(window).scroll(function () {
                 {
                     countNum: countTo,
                 },
-
                 {
                     duration: 2000,
                     easing: "swing",
@@ -57,8 +56,7 @@ $(window).scroll(function () {
                         $this.text(Math.floor(this.countNum));
                     },
                     complete: function () {
-                        $this.text(this.countNum);
-                        //alert('finished');
+                        $this.text(this.countNum);                     
                     },
                 }
             );

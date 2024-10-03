@@ -31,24 +31,7 @@
 .bg-bg-darkskyblue{
     background-color: var(--dark-skyblue);
 }
-.font-xsm{
-    font-size: var(--font-xsm);
-}
-.font-sm {
-    font-size: var(--font-sm);
-}
-.font-xmd {
-    font-size: var(--font-xmd);
-}
-.font-md{
-    font-size: var(--font-md);
-}
-.font-xlg{
-    font-size: var(--font-xlg);
-}
-.font-lg {
-    font-size: var(--font-lg);
-}
+
 .font-xl {
     font-size: var(--font-xl);
 
@@ -57,9 +40,6 @@
 }
 .font-3xl {
     font-size: var(--font-3xl);
-}
-.font-4xl {
-    font-size: var(--font-4xl);
 }
 
 @media (max-width:1024px) {
