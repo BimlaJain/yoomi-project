@@ -78,11 +78,11 @@
                             <span></span>
                             <span></span>
                         </label>
-                        <ul class="flex gap-11 smallscreen">
-                            <li><a href="" class="font-inter font-medium leading-5 md:text-lg sm:text-base text-sm nav-bar-hover">About Us</a>
+                        <ul class="flex md:gap-11 gap-7 smallscreen">
+                            <li><a href="#about" class="font-inter font-medium leading-5 md:text-lg sm:text-base text-sm nav-bar-hover">About Us</a>
                             </li>
-                            <li><a href="" class="font-inter font-medium leading-5 md:text-lg sm:text-base text-sm  nav-bar-hover">News</a></li>
-                            <li><a href="" class="font-inter font-medium leading-5 md:text-lg sm:text-base text-sm  nav-bar-hover">Contact
+                            <li><a href="#news" class="font-inter font-medium leading-5 md:text-lg sm:text-base text-sm  nav-bar-hover">News</a></li>
+                            <li><a href="#contact" class="font-inter font-medium leading-5 md:text-lg sm:text-base text-sm  nav-bar-hover">Contact
                                     Us</a>
                             </li>
                             <li><a href=""
@@ -91,21 +91,22 @@
                         </ul>
                     </div>
                 </nav>
+               
                 <h1
                     class="font-3xl font-normal leading-[110%] text-center max-w-[822px] mx-auto font-plus lg:mt-32 md:mt-28 sm:mt-20 mt-12 mb-5">
                     <span class="font-extrabold">Next Generation</span> Patient Engagement and RTM Solution✨
                 </h1>
                 <p class="font-inter font-normal leading-[110%] text-black opacity-70 md:text-2xl sm:text-xl text-sm text-center">Industry
                     leading AI motion-tracking technology</p>
-                <div
+                <form method="get" id="emailform"
                     class="flex justify-between bg-white  shadow-lg  sm:max-w-[428px] max-w-[330px] mx-auto sm:mt-14 mt-6">
-                    <input type="email" placeholder="Enter Your Email"
+                    <input type="email" placeholder="Enter Your Email" required
                         class=" px-5 py-3 w-48 focus:outline-none placeholder:text-black placeholder-opacity-70">
                     <button
                         class="bg-navyblue text-white sm:px-6 py-2 px-5  rounded-md hover:text-[--navy-blue] hover:bg-white border-[1px] border-[--navy-blue] transition-all ease-in-out duration-500 my-1 me-1 md:text-base sm:text-sm text-xs">
                         Get Started
                     </button>
-                </div>
+                </form>
             </div>
             <div class="border-b-[24px] border-b-[--navy-blue] sm:mt-[135px] mt-24"></div>
             <img src="assets/images/webp/left-pot.webp" alt="pot"
@@ -212,7 +213,7 @@
             </div>
         </section>
         <!-- ---------------------------tracking section---------------------------------- -->
-        <section class="relative mx-3">
+        <section id="about" class="relative mx-3">
             <div class="lg:block hidden">
                 <div class="absolute top-[-34%] z-[-1]">
                     <img src="assets/images/webp/left-plus.webp" alt="left-plus" class="pointer-events-none">
@@ -312,7 +313,7 @@
             </div>
         </section>
         <!-- -------------------------platform section---------------------------- -->
-        <section class="lg:pt-[87px] md:pt-14 sm:pt-10 pt-8 lg:pb-24 md:pb-14 sm:pb-10 pb-8 bg-[#F5F8FA] relative mx-3">
+        <section id="new" class="lg:pt-[87px] md:pt-14 sm:pt-10 pt-8 lg:pb-24 md:pb-14 sm:pb-10 pb-8 bg-[#F5F8FA] relative mx-3">
             <img src="assets/images/top-plus.png" alt="top-plus" class="absolute top-0 right-0">
             <div class="container">
                 <h2 class=" font-medium md:text-base sm:text-sm text-xs text-navyblue text-center uppercase">Platform</h2>
@@ -322,7 +323,7 @@
                     class="max-w-[724px] mx-auto text-black font-normal leading-[150%] md:text-base sm:text-sm text-xs opacity-70 text-center  mt-2 mb-14">
                     We’ve helped out partners and patients achieve</p>
                 <div id="counter" class=" flex items-center justify-center gap-4 flex-row flex-wrap md:flex-nowrap ">
-                    <div class=" bg-[--light-green] py-10 px-[60px] max-w-[268px]  relative">
+                    <div class=" bg-[--light-green] py-10 md:px-[60px] px-12 max-w-[268px] h-[206px] relative">
                         <div class="flex items-center justify-center ">
                             <p class=" text-center text-6xl font-semibold text-white  count mb-0  leading-[110%]"
                                 data-count="50">0</p><span
@@ -333,7 +334,7 @@
                         <img src="assets/images/webp/counter-plus.webp" alt="counter plus"
                             class="absolute bottom-0 right-0 pointer-events-none">
                     </div>
-                    <div class=" bg-[--dark-skyblue] py-10 px-[42px] max-w-[268px] relative">
+                    <div class=" bg-[--dark-skyblue] py-10 px-[42px] max-w-[268px] h-[206px] relative">
                         <div class="flex items-center justify-center ">
                             <p class=" text-center text-6xl font-semibold text-white  count mb-0  leading-[110%] "
                                 data-count="90">0</p><span
@@ -344,7 +345,7 @@
                         <img src="assets/images/webp/counter-plus.webp" alt="counter plus"
                             class="absolute bottom-0 right-0 pointer-events-none">
                     </div>
-                    <div class=" bg-[--navy-blue] py-[55px] px-[59px] max-w-[268px]  relative">
+                    <div class=" bg-[--navy-blue] py-[55px] md:px-[59px] px-12 max-w-[268px] h-[206px] relative">
                         <div class="flex items-center justify-center ">
                             <p class=" text-center text-6xl font-semibold text-white  count mb-0  leading-[110%]"
                                 data-count="60">0</p><span
@@ -491,15 +492,15 @@
                             <img src="assets/images/webp/footer-logo.webp" alt="footer-logo">
                             <p class="font-plus lg:text-3xl md:text-2xl text-xl  font-normal text-white pb-12 md:pt-7 sm:pt-5 pt-3">Sign Up to
                                 Join <span class="font-semibold">Our Newsletter</span></p>
-                            <div
+                            <form method="get" id="emailform"
                                 class="flex justify-between bg-white  shadow-lg  sm:max-w-[428px] max-w-[330px] mx-auto rounded-lg">
-                                <input type="email" placeholder="Enter Your Email"
+                                <input type="email" placeholder="Enter Your Email" required
                                     class=" px-5 py-3 w-48 focus:outline-none placeholder-[#110163] rounded-lg font-medium md:text-base sm:text-sm text-xs font-inter">
                                 <button
                                     class="bg-navyblue text-white sm:px-4 py-3 px-5  rounded-md hover:text-[--navy-blue] hover:bg-white border-[1px] border-[--navy-blue] whitespace-nowrap transition-all ease-in-out duration-500e my-1 me-1 md:text-base sm:text-sm text-xs">
                                     Get Started
                                 </button>
-                            </div>
+                            </form>
                         </div>
                     </div>
                     <img src="assets/images/webp/man.webp" alt="man"
@@ -510,7 +511,7 @@
             </div>
         </section>
         <!-- ----------------footer section------------------------- -->
-        <section class="relative bg-black ">
+        <section id="contact" class="relative bg-black ">
             <img src="assets/images/footer-img.png" alt="footer-img" class="absolute left-0 top-[45%]">
             <div class="container lg:pt-[213px] sm:pt-80 pt-64 pb-10 md:px-0 px-6 ">
                 <div class="flex md:justify-between md:flex-row flex-col">
@@ -596,7 +597,7 @@
                     class=" font-normal sm:text-sm text-xs text-white opacity-30 md:text-end text-center hover:opacity-100 transition-all duration-500">
                     Cookies</a>
             </div>
-        </section>
+        </section>        
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
             integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
             crossorigin="anonymous" referrerpolicy="no-referrer"></script>
